@@ -1,4 +1,4 @@
-# 🛡️ Sentinel-Automation: Asynchronous Website Monitor
+# 🛡️ Sentinel-Automation: Web-Health-Monitor
 
 A high-performance, asynchronous website monitoring system built with **Python 3.13**. This tool checks the status of multiple URLs simultaneously and logs the results into a persistent **SQLite** database.
 
