@@ -14,6 +14,6 @@ A high-performance, asynchronous website monitoring system built with **Python 3
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/KilladiJoel/sentinel-automation.git](https://github.com/KilladiJoel/sentinel-automation.git)
+   git clone [https://github.com/KilladiJoel/Web_Health_Monitor](https://github.com/KilladiJoel/Web_Health_Monitor)
    cd sentinel-automation
    ![Sentinel Output](screenshot.png)
