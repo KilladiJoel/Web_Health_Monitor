@@ -1,12 +1,12 @@
-# 🛡️Web-Health-Monitor
+# 🛡️ Web-Health-Monitor
 
-A high-performance, asynchronous website monitoring system built with **Python 3.13**. This tool checks the status of multiple URLs simultaneously and logs the results into a persistent **SQLite** database.
+This **Python 3.13** system uses `httpx` and `asyncio` to monitor website health in parallel, storing real-time status and HTTP codes in a persistent **SQLite** database. It features an automated heartbeat loop that logs performance history and triggers alerts whenever a target site is unreachable.
 
 ## 🚀 Features
-* **Asynchronous I/O:** Uses `httpx` and `asyncio` to monitor dozens of sites in parallel without blocking.
-* **Persistent Storage:** Every check is logged in a local SQLite database using `aiosqlite`.
-* **Real-time Alerts:** Automatically detects and flags "DOWN" status for immediate visibility.
-* **Automated Heartbeat:** Runs on a configurable loop (default: 60s) to provide continuous monitoring.
+* **Asynchronous I/O:** Monitors multiple sites simultaneously without blocking.
+* **Persistent Storage:** Logs all check results using `aiosqlite`.
+* **Real-time Alerts:** Instant console warnings for "DOWN" status.
+* **Automated Heartbeat:** Runs on a 60s configurable loop.
 
 ---
 
@@ -14,6 +14,5 @@ A high-performance, asynchronous website monitoring system built with **Python 3
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/KilladiJoel/Web_Health_Monitor](https://github.com/KilladiJoel/Web_Health_Monitor)
-   cd sentinel-automation
-   ![Sentinel Output](screenshot.png)
+   git clone [https://github.com/KilladiJoel/Sentinel_project.git](https://github.com/KilladiJoel/Sentinel_project.git)
+   cd Sentinel_project
